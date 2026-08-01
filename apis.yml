@@ -1,7 +1,26 @@
 aid: showbie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/showbie.png
 name: Showbie
-description: Showbie is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Showbie is a K-12 learning platform for iPad that streamlines teaching
+  workflows across assignments, feedback, grading, and classroom communication
+  for teachers, students, and parents. Backed by Point Nine, it combines a
+  digital classroom, annotation and file-sharing tools, and messaging into a
+  single app used by schools worldwide. Showbie exposes no public developer
+  API, SDK, or docs surface; this profile captures the company's public web,
+  support, compliance, privacy, and terms properties, plus a live domain
+  security probe.
 url: https://raw.githubusercontent.com/api-evangelist/showbie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Learning Platform
+- iPad
+- Classroom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.showbie.com
+  url: https://www.showbie.com
+- type: Blog
+  url: https://blog.showbie.com/resources
+- type: HelpCenter
+  url: https://support.showbie.com/en/
+- type: Support
+  url: https://support.showbie.com/en/
+- type: Compliance
+  url: https://support.showbie.com/en/collections/2690620-compliance
+- type: PrivacyPolicy
+  url: https://www.showbie.com/privacy-policy
+- type: TermsOfService
+  url: https://www.showbie.com/terms-of-use
+- type: Login
+  url: https://showbie.my.site.com/partners/s/login/?language=en_US
+- type: DomainSecurity
+  url: security/showbie-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
